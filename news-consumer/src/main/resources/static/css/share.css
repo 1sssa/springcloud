@@ -1,0 +1,27 @@
+.share{
+    /*border: 2px solid salmon;*/
+    float:left;width: 240px;height: 36px;margin-left:15px;position: relative;
+    padding-bottom: 20px;
+}
+.share a.weibo {background-position: -48px 0;}
+.share a {float: left;height: 36px;width: 37px;display: inline-block;background-image: url(//p3.img.cctvpic.com/photoAlbum/templet/common/DEPA1561603549108607/share_XUQIU-18886.png);background-repeat: no-repeat;margin-right: 12px;}
+
+.share a.qq {background-position: -147px 0;margin-right: 0px;}
+
+.share a:hover {background-image: url(//p3.img.cctvpic.com/photoAlbum/templet/common/DEPA1561603549108607/share_hover_XUQIU-18886.png);}
+
+.share a.qqzone {background-position: -96px 0;}
+
+.share a.weixin {background-position: 0 0;}
+
+.share p {
+    display: inline-block;
+    font-family: PingFangSC-Regular, Helvetica, Arial, Microsoft Yahei, sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+    float: left;
+
+}
+

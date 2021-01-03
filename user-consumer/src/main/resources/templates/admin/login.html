@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>登录页面</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://localhost:8893/user-consumer/../css/admincss/style.css" />
+	<link rel="stylesheet" type="text/css" href="http://localhost:8893/user-consumer/../css/admincss/lanrenzhijia.css" />
+<!--	<link rel="stylesheet" type="text/css" href="http://localhost:8893/user-consumer/../css/login.css" />-->
+<style type="text/css">
+	#bogin_box{
+		float:left;
+		width: 96%;
+		height: 100%;
+		margin-left: 2%;
+		/*border: 3px solid skyblue;*/
+	}
+	h1{
+		align-content: center;
+		font-size: 30px;
+		color: rgba(255,0,51,1);
+		font-weight:bold;
+		font-style: italic;
+		text-shadow: 4px 4px   rgba(255,0,51,0.3) ;/*文字阴影*/
+	}
+
+	#biaodan{
+		float:left;
+		text-align: center;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px;
+		border: 2px solid rgba(255,0,51,1);
+		width: 40%;
+		margin-left: 25%;
+		height: 600px;
+		margin-top: 10px;
+		margin-bottom: 720px;
+	}
+	.yonghu{
+		color: white;
+	}
+
+</style>
+</head>
+<body>
+
+	<!-- main -->
+	<div class="main-w3layouts wrapper" id="bogin_box">
+		<div class="main-agileinfo" id="biaodan">
+			<h1 align="center">登&nbsp;&nbsp;&nbsp;录</h1>
+			<div class="agileits-top" >
+				<form action="http://localhost:8893/login" method="get">
+					<input class="text" type="text" name="uname" placeholder="用户名" required>
+					<input class="text" type="password" name="upassword" placeholder="密码" required>
+					<br/><br/><br/>
+					<label class="yonghu">&nbsp;&nbsp;用户类型：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="utype" type="radio" value="管理员" class="text" />&nbsp;管理员 </label>
+					<label class="yonghu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<input name="utype" type="radio" value="用户" class="text" />&nbsp;用户
+					</label>
+
+					<div class="wthree-text">
+						<ul>
+							<li>
+								<label class="anim">
+									<input type="checkbox" class="checkbox" required>
+									<span> 记住 ?</span>
+								</label>
+							</li>
+							<li><a href="#">忘记密码 ?</a> </li>
+						</ul>
+						<div class="clear"> </div>
+					</div>
+					<input type="submit" value="登录" id="anniu">
+				</form>
+				<p class="cstyle">没有账号？<a href="http://localhost:8893/toregister">立即注册</a></p>
+			</div>	 
+		</div>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		<!-- copyright -->
+		<div class="w3copyright-agile">
+
+		</div>
+		<!-- //copyright -->
+		<ul class="w3lsg-bubbles">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>	
+	<!-- //main --> 
+	
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="www.thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>新闻详情页面</title>
+	<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/main_header.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../detail/css/news.css"/>
+	<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/detail.css"/>
+	<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/share.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/like.css">
+	<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/comment.css">
+	<script type="text/javascript" src="http://localhost:8896/news-consumer/../js/jquery.js"></script>
+
+</head>
+<body>
+
+	<div th:replace="/qiantai/header :: header"></div>
+
+
+	<div id="detail" >
+		<div class="detail_content_header">
+			<h1  th:text="${detail.ntitle}"></h1>
+			<br/><br/>
+			<span th:text="${detail.nsource}"></span>
+			<br/><br/>
+		</div>
+		<div class="detail_content">
+			<p th:text="${detail.ndetails}"></p>
+			<br/>
+		</div>
+		<span th:text="${detail.neditor}" class="editor"></span>
+		<br/>
+
+		<div id="LikeAndShare">
+			<!--点赞数-->
+			<div id="like">
+				<div class="feed" id="feed1">
+					<div class="heart" id="like1" rel="like"></div>
+					<div class="likeCount" id="likeCount1" th:text="${detail.nhot}"></div>
+					<!--<span th:text="${news.nhot}"></span>-->
+				</div>
+			</div>
+			<!--分割线-->
+			<div class="shu">|</div>
+			<!--分享-->
+			<div class="share">
+				<p>分享：</p>
+				<a href="javascript:;" class="weixin" data-fx="wx-btn1" title="微信"></a>
+				<a href="javascript:;" class="weibo" data-fx="wb-btn" title="新浪微博"></a>
+				<a href="javascript:;" class="qqzone" data-fx="qz-btn" title="QQ空间"></a>
+				<a href="javascript:;" class="qq" data-fx="qq-btn" title="QQ"></a>
+			</div>
+		</div>
+
+	</div>
+
+	<!--评论区-->
+	<div id="comment">
+		<div class="comment_count"><p>2021 评论</p></div>
+
+		<div class="comment_context" >
+
+			<form  th:action="@{/news/intsertcomment}" method="get">
+<!--			<form  th:action="@{'/news/intsertcomment?uname='+${session.uname}}" method="get">-->
+				<!--<img src="http://localhost:8896/news-consumer/../img/head_img/head_img08.jpg"/>-->
+				<div class="user_head_img"><img src="http://localhost:8896/news-consumer/../img/head_img/head_img08.jpg"/>&nbsp;</div>
+				<div class="comment_and_submit">
+					<div class="comment_area" >
+						<textarea name="ccontext" class="content" type="text" cols="30" rows="3" placeholder="发条友善的评论..." required="required"></textarea>
+					</div>
+
+					<div  th:if="${session.uname} != null">
+						<input  name="cusername" type="text"  th:value="${session.uname}" style="display:none"/>
+						<input name="ctime" type="text" id="time" value="" style="display:none"/>
+						<input name="cuser_img" type="text" value="http://localhost:8896/b2b-news-consumer/../img/head_img/head_img08.jpg" style="display:none"/>
+					</div>
+
+					<div class="comment_submit"><button type="submit" class="submit" id="submit">发表<br/>评论</button></div>
+				</div>
+			</form>
+		</div>
+
+
+		<!--评论列表-->
+		<div class="comment_context2" th:each="comment:${comment}">
+			<div class="user_head_img2"><img th:src="${comment.cuser_img}"/></div>
+			<div class="comment_and_submit">
+				<!--评论的用户名-->
+				<div class="comment_username">
+					<span th:text="${comment.cusername} "></span>
+				</div>
+				<!--评论的内容-->
+				<div class="comment_words">
+					<span th:text="${comment.ccontext} "></span>
+				</div>
+				<!--评论的时间-->
+				<div class="comment_time">
+					<span th:text="${comment.ctime}"></span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div style="margin-top: 60px;float: left;width: 100%;margin-bottom: 0">
+		<div  th:replace="/qiantai/footer :: footer"></div>
+	</div>
+
+
+
+	<script>
+		$(document).ready(function()
+		{
+
+			$('body').on("click",'.heart',function()
+			{
+
+				var A=$(this).attr("id");
+				var B=A.split("like");
+				var messageID=B[1];
+				var C=parseInt($("#likeCount"+messageID).html());
+				$(this).css("background-position","")
+				var D=$(this).attr("rel");
+
+				if(D === 'like')
+				{
+					$("#likeCount"+messageID).html(C+1);
+					$(this).addClass("heartAnimation").attr("rel","unlike");
+
+				}
+				else
+				{
+					$("#likeCount"+messageID).html(C-1);
+					$(this).removeClass("heartAnimation").attr("rel","like");
+					$(this).css("background-position","left");
+				}
+
+
+			});
+
+			$(".submit").click(function() {
+				alert("评论提交成功！");
+			});
+
+		});
+
+		function t(){
+			var now= new Date();
+			var y = now.getFullYear();
+			var y = now.getFullYear();
+			var mm = now.getMonth()+1;
+			var d = now.getDate();
+			var h=now.getHours();
+			var m=now.getMinutes();
+			var s=now.getSeconds();
+			if (mm<10)
+				mm = "0" + mm
+			if (d<10)
+				d = "0" + d
+			if (h<10)
+				h = "0" + h
+			if (m<10)
+				m = "0" + m
+			if (s<10)
+				s = "0" + s
+			var tt=y+"-"+mm+"-"+d+" " +" "+h+":"+m+":"+s;
+			document.getElementById("time").value=tt;
+		}
+		setInterval('t()',500);
+	</script>
+
+</body>
+</html>

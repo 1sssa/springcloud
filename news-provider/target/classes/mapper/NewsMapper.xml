@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.newsprovider.dao.NewsDao">
+    <select id="getAllnews" resultType="com.cloud.common.News">
+       select * from news
+    </select>
+    <select id="getOnenews" resultType="com.cloud.common.News" parameterType="java.lang.String">
+        SELECT * FROM news WHERE nkeyword LIKE "%${nkeyword}%"
+    </select>
+     <select id="getOnenid" resultType="com.cloud.common.News" parameterType="int">
+         select * from news where nid=#{nid}
+     </select>
+    <select id="getToptennews" resultType="com.cloud.common.News">
+       SELECT * FROM news ORDER BY nhot DESC LIMIT 10
+    </select>
+</mapper>

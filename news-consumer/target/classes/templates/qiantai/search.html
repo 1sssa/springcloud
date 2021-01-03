@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>美多商城-搜索</title>
+    <link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/reset.css">
+
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/main_header.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/news.css"/>
+    <script type="text/javascript" src="http://localhost:8896/news-consumer/../js/jquery.js"></script>
+
+</head>
+<body>
+
+<div th:replace="/qiantai/header :: header"></div>
+
+
+<div class="list_model">
+
+
+    <!--参考-->
+    <div class="model" th:each="news:${news1} ">
+
+        <a th:href="@{'http://localhost:8896/news/detail?nid='+${news.nid}}" class="a1"><img th:src="${news.nimgURL}"/></a>
+        <a th:href="@{'http://localhost:8896/news/detail?nid='+${news.nid}}"  th:text="${news.ntitle}" class="a2"></a>
+        <br/><br/>
+        <p class="p1"  th:text="${news.nsummary}"></p>
+        <br/><br/>
+        <p class="p2"  th:text="${news.ndate +'&emsp;&emsp;'+ news.nkeyword}"></p>
+        <div class="hot">
+            阅读数：<span th:text="${news.nhot}"></span>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div style="margin-top: 160px;float: left;width: 100%;margin-bottom: 0">
+    <div  th:replace="/qiantai/footer :: footer"></div>
+</div>
+
+
+</body>
+</html>

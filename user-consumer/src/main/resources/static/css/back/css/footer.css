@@ -1,0 +1,23 @@
+.footer{
+	height: 180px;
+	width: 100%;
+	background-color: rgba(207,210,206,0.15);
+	padding: 10px 50px;
+	float: left;
+}
+.footer ul{
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+}
+.footer ul li{
+	height: 30px;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: #808080;
+	font-size: 14px;
+}
+.footer ul li a:hover{
+	color: #5DD5C8;
+}

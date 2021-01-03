@@ -1,0 +1,69 @@
+#
+#server:
+#  port: 8893  #服务端口
+#spring:
+#  application:
+#    name: user-consumer   #服务名
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://root:123456@localhost:8500/eureka/  #服务注册地址
+#  instance:
+#    hostname: localhost
+#thymeleaf:
+#  cache: false      #关闭缓存
+##  prefix: classpath:/template
+##  suffix: .html
+##  encoding: UTF-8
+#feign:
+#  hystrix:
+#    enabled: true
+server:
+  port: 8893  #服务端口
+spring:
+
+  #Thymeleaf模板引擎配置
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false      #关闭缓存
+    encoding: UTF-8
+    mode: HTML5
+
+
+  application:
+    name: user-consumer   #服务名
+
+  #MyBatis数据配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/news?serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+
+    #阿里巴巴Druid数据源配置
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 20
+    minIdle: 10
+    maxActive: 100
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:123456@localhost:8500/eureka/  #服务注册地址
+  instance:
+    hostname: localhost
+
+feign:
+  hystrix:
+    enabled: true
+
+
+#PageHelper分页插件配
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+
+
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>注册页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8893/user-consumer/../css/admincss/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://localhost:8893/user-consumer/../css/admincss/lanrenzhijia.css" />
+        <style type="text/css">
+        h1{
+            position: absolute;
+            top: 120px;
+            font-size: 30px;
+            color: rgba(255,0,51,1);
+            font-weight:bold;
+            font-style: italic;
+            text-shadow: 4px 4px   rgba(255,0,51,0.3) ;/*文字阴影*/
+        }
+
+
+        #biaodan{
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius:10px;
+            border-bottom-left-radius:10px;
+            border: 2px solid rgba(255,0,51,1);
+            margin-bottom: 150px;
+        }
+
+        .yonghu{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- main -->
+<div class="main-w3layouts wrapper"  >
+    <div class="main-agileinfo" id="biaodan">
+        <h1 align="center">注&nbsp;&nbsp;&nbsp;册</h1>
+        <div class="agileits-top" >
+            <form action="http://localhost:8893/register" method="get">
+                <input class="text" type="text" name="uname" placeholder="用户名" required>
+                <input class="text" type="password" name="upassword" placeholder="密码" required>
+                <input class="text" type="password" name="upasswordconfirm" placeholder="确认密码" required>
+                <input class="text" type="email" name="uemail" placeholder="邮箱地址" required>
+                <br/><br/><br/>
+                <label class="yonghu">&nbsp;&nbsp;用户类型：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="utype" type="radio" value="管理员" class="text" />&nbsp;管理员 </label>
+                <label class="yonghu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input name="utype" type="radio" value="用户" class="text" />&nbsp;用户
+                </label>
+
+
+                <input type="submit" value="注册" id="anniu">
+            </form>
+
+            <p>已经创建完? <a href="http://localhost:8893/tologin"> 立即登录!</a></p>
+        </div>
+    </div>
+    <!-- copyright -->
+    <div class="w3copyright-agile">
+        <p>© 2017 All rights Reserved</p>
+    </div>
+    <!-- //copyright -->
+    <ul class="w3lsg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<!-- //main -->
+
+</body>
+</html>

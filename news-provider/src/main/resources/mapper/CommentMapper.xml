@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.newsprovider.dao.CommentDao">
+    <insert id="intsertcomment" parameterType="com.cloud.common.Comment">
+        INSERT INTO comment(ccontext,cusername, ctime,cuser_img)VALUES(#{ccontext}, #{cusername}, #{ctime},#{cuser_img});
+    </insert>
+    <select id="getAllcomment" resultType="com.cloud.common.Comment" parameterType="java.lang.Integer">
+        SELECT * FROM comment ORDER BY cid DESC LIMIT 8
+    </select>
+</mapper>

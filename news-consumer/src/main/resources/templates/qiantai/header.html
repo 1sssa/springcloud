@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org" th:fragment="header">
+	<head>
+		<meta charset="UTF-8">
+		<title>导航栏</title>
+		<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="http://localhost:8896/news-consumer/../css/main_header.css">
+		<script type="text/javascript" src="http://localhost:8896/news-consumer/../js/jquery.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			
+			<div id="menu">
+
+				<div id="logo">
+					<a class="dong">新</a>
+					<a class="man">闻</a>
+					<a class="she">网</a>
+					<a class="qu">站</a>
+				</div>
+
+				<div id="menu3">
+
+					<div id="one">
+<!--						<a href="/news/getAllxinwen">新闻</a>-->
+						<a th:href="@{'/news/getAllxinwen?uname='+${session.uname}}">新闻</a>
+					</div>
+
+					<div id="two">
+						<a href="/news/getAllguonei">国内</a>
+					</div>
+
+					<div id="three">
+						<a href="/news/getAllguoji">国际</a>
+					</div>
+
+					<div id="four">
+						<a href="/news/getAllkeji">科技</a>
+					</div>
+
+					<div id="five">
+						<a href="#">生活</a>
+					</div>
+
+					<div id="six">
+						<a href="/news/getTophot">排行</a>
+					</div>
+
+				</div><!-- end menu3 -->
+
+
+				<!--搜索框-->
+				<div id="main_search">
+					<form action="/news/getOne" method="get">
+						<input type="text" name="keyword" placeholder="搜索从这里开始..." class="search_input">
+						<!--<input type="submit" <img type="submit" name="" src="http://localhost:8896/news-consumer/../img/style_img/search.PNG" class="search_img"/>/>-->
+						<img type="submit" name="" src="http://localhost:8896/news-consumer/../img/style_img/search.PNG" class="search_img">
+
+					</form>
+				</div>
+
+
+				<!--用户头像（用户信息区） -->
+				<div id="USER">
+
+					<div class="user_1">
+						<!--头像-->
+							<div  class="user_name" th:if="${session.uname} != null">
+								<img src="http://localhost:8896/news-consumer/../img/head_img/head_img08.jpg"/>&nbsp;
+							</div>
+
+							<div  class="user_name" th:if="${session.uname} == null">
+								<img src="http://localhost:8896/news-consumer/../img/style_img/logimg.jpg"/>&nbsp;
+
+							</div>
+
+							<div  class="user_name" th:if="${session.uname} != null">
+								<a href="">
+									<span th:text="${session.uname}"></span>
+								</a>
+							</div>
+							<div  class="user_name" th:if="${session.uname} == null">
+								<a  href="http://localhost:8893/tologin">
+									<span>请您登陆</span>
+								</a>
+							</div>
+					</div>
+
+				</div>
+
+
+				<div id="menu4">
+
+					<div id="sevent">
+						<a href="http://localhost:8896/news/quit">退出</a>
+					</div>
+
+					<!--
+					<div id="eight">
+						<a href="#">退出</a>
+					</div>-->
+
+				</div>
+			</div><!-- end menu -->
+	
+		</div><!-- end header -->
+
+
+	</body>
+</html>

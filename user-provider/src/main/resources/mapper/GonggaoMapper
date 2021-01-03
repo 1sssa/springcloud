@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.userprovider.dao.GonggaoDao">
+
+
+    <!--    增加,  注意：要指定增加的列名-->
+    <insert id="addGonggao" parameterType="com.cloud.common.Gonggao">
+       INSERT INTO gonggao(ggid,gguname,ggcontent,ggtype,ggtime) VALUES (#{ggid},#{gguname},#{ggcontent},#{ggtype},#{ggtime})
+    </insert>
+
+
+    <!--查询根据ID查询用户信息-->
+    <select id="findGonggao" resultType="com.cloud.common.Gonggao" parameterType="java.lang.String" >
+       select * from gonggao where ggid=#{ggid}
+    </select>
+
+    <!--删除-->
+    <delete id="deleteGonggao" parameterType="java.lang.String">
+        delete from gonggao where ggid = #{ggid}
+    </delete>
+
+
+    <!--更新-->
+    <update id="updateGonggao" parameterType="com.cloud.common.Gonggao">
+       update gonggao set gguname=#{gguname},ggcontent=#{ggcontent},ggtype=#{ggtype},ggtime=#{ggtime} where ggid=#{ggid}
+    </update>
+
+
+</mapper>

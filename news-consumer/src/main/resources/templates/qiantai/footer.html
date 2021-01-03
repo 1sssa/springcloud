@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org" th:fragment="footer">
+	<head>
+		<meta charset="UTF-8">
+		<title>尾部</title>
+		<style>
+#footer {
+	
+	height:150px;		
+	background-color:rgba(51,51,51,1);
+	clear:both;
+	margin-top:0px;
+
+}
+
+#footer  span{	
+	text-align:center;
+	font-size:0.8em;
+	color:white;	
+	
+
+}
+
+
+#footer a{
+	color:white;
+	text-decoration:none;
+
+}
+
+#footer a:hover{
+	text-decoration:underline;
+	text-shadow: 0px 6px 1px rgba(0,102,204,0.3);/*文字阴影*/
+	font-weight:bold;/*字体加粗*/
+	color: rgba(0,102,204,1);
+}
+
+#footer a:active{
+	color: yellow;
+}
+
+/*
+#footer #left_footer{	
+	margin-left:230px;
+	
+	width:255px;
+	height:120px;
+	float:left;
+	border: 3px solid rgb(28, 108, 122);
+}
+
+#footer #right_footer{
+	
+	margin-left:150px;
+	width:255px;
+	height:120px;
+	float:left;
+	border: 3px solid rgb(28, 108, 122);
+}
+
+#footer #middle_line{
+	width:1px;
+	height:150px;
+	float:left;
+	margin-left:150px;
+	background-color:rgba(153,153,153,0.5);
+}
+*/
+
+#footer #bottom_footer{
+	
+	margin-left:30%;
+	text-align:center;
+	width:500px;
+	height:50px;
+	float:center;
+	
+}
+
+
+</style>
+	</head>
+	<body>
+		
+<div id="footer">
+	<br/><br/>
+	
+	<div id="bottom_footer">
+		<span>
+		<a href="#">关于我们 </a> &nbsp;| &nbsp; <a href="#">加入我们     </a> &nbsp; | &nbsp; <a href="#">联系我们</a></span>	
+		<br/><br/>
+		<span>友情链接&nbsp;&nbsp;<a href="https://news.cctv.com/">https://news.cctv.com</a></span>
+		<br/><br/>
+		<span>C o p y r i g h t &nbsp; &copy;&nbsp;2 0 2 0 &nbsp; <a href="#">新闻网站</a></span>	
+	</div>
+		
+</div> 
+    <!-- end footer -->
+	</body>
+</html>
