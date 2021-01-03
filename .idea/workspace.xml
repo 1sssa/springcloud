@@ -1,647 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c6db0b1-110f-4d85-8dde-cdbedd0544ce" name="Default Changelist" comment="这是第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_39.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_21_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_1_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/cloud/common/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/cloud/common/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/cloud/common/Gonggao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/cloud/common/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/cloud/common/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/cloud/common/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/cloud/common/Userorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/cloud/common/Cart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/cloud/common/Comment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/cloud/common/Gonggao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/cloud/common/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/cloud/common/News.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/cloud/common/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/classes/com/cloud/common/Userorder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/common-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/cloud/eurekaserver/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/cloud/eurekaserver/crsf/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/cloud/eurekaserver/EurekaServerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/cloud/eurekaserver/crsf/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/news-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/NewsConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/configuration/SessionConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/controller/NewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/filter/SysInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/hystrix/GoodsServiceHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/hystrix/NewsServiceHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/java/com/cloud/newsconsumer/service/NewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/like.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/lunbotu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/main_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/css/share.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/css/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/images/detail01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/images/detail02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/images/detail03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/images/detail04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/images/detail05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/images/detail06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/images/detail07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/images/detail08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/detail/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/head_img/head_img12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/lunbotu_img/guoji01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/lunbotu_img/guonei01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/lunbotu_img/keji01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/lunbotu_img/xinwen01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guoji/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guoji/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guoji/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guoji/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guonei/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guonei/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guonei/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guonei/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guonei/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/guonei/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/keji/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/keji/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/keji/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/keji/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/xinwen/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/xinwen/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/xinwen/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/xinwen/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/news/xinwen/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/style_img/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/style_img/logimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/img/style_img/search.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/static/js/slide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/Settle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/detail88.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/guoji.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/guoji_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/guonei.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/guonei_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/hot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/keji.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/keji_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/src/main/resources/templates/qiantai/xinwen_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/META-INF/goods-consumer.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/META-INF/news-consumer.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/com/cloud/newsconsumer/NewsConsumerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/com/cloud/newsconsumer/controller/NewsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/com/cloud/newsconsumer/filter/SysInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/com/cloud/newsconsumer/hystrix/NewsServiceHystrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/com/cloud/newsconsumer/service/NewsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/like.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/lunbotu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/main_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/css/share.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/css/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/images/detail01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/images/detail02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/images/detail03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/images/detail04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/images/detail05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/images/detail06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/images/detail07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/images/detail08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/detail/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/head_img/head_img12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/lunbotu_img/guoji01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/lunbotu_img/guonei01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/lunbotu_img/keji01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/lunbotu_img/xinwen01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guoji/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guoji/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guoji/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guoji/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guonei/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guonei/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guonei/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guonei/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guonei/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/guonei/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/keji/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/keji/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/keji/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/keji/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/xinwen/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/xinwen/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/xinwen/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/xinwen/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/news/xinwen/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/style_img/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/style_img/logimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/img/style_img/search.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/js/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/static/js/slide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/Settle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/detail88.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/guoji.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/guoji_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/guonei.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/guonei_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/hot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/keji.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/keji_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-consumer/target/classes/templates/qiantai/xinwen_header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/news-provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/NewsProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/controller/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/controller/NewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/controller/ShoppingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/dao/CartDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/dao/CommentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/dao/NewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/java/com/cloud/newsprovider/dao/ShoppingDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/resources/mapper/CartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/resources/mapper/NewsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/src/main/resources/mapper/ShoppingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/META-INF/news-provider.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/com/cloud/newsprovider/NewsProviderApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/com/cloud/newsprovider/controller/CommentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/com/cloud/newsprovider/controller/NewsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/com/cloud/newsprovider/dao/CommentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/com/cloud/newsprovider/dao/NewsDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/mapper/CartMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/mapper/CommentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/mapper/NewsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news-provider/target/classes/mapper/ShoppingMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/cloud/userconsumer/UserConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/cloud/userconsumer/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/cloud/userconsumer/controller/UserController2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/cloud/userconsumer/dao/UserDAO2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/cloud/userconsumer/hystrix/UserServiceHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/cloud/userconsumer/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/cloud/userconsumer/service/UserService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/cloud/userconsumer/service/implement/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/admincss/lanrenzhijia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/admincss/main_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/admincss/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/admincss/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/back/css/back1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/back/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/back/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/back/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/back/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/back/images/postjob.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/back/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/back/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/bt/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/Bitmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/Page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/chenggong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/daisen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/dengluye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/dl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/icon_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/load.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/shibai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/shoe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/style_img/logimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/style_img/search.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/wechat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/weixinzhifu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/wenti.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/img/zhifubao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/static/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/gonggao_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/gonggao_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/gonggao_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/houtai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/user_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/admin/user_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/comm/paging4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/templates/comm/paging5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/cloud/userconsumer/UserConsumerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/cloud/userconsumer/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/cloud/userconsumer/controller/UserController2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/cloud/userconsumer/dao/UserDAO2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/cloud/userconsumer/hystrix/UserServiceHystrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/cloud/userconsumer/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/cloud/userconsumer/service/UserService2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/cloud/userconsumer/service/implement/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/admincss/lanrenzhijia.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/admincss/main_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/admincss/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/admincss/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/back/css/back1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/back/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/back/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/back/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/back/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/back/images/postjob.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/back/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/back/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/bt/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/Bitmap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/Page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/chenggong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/daisen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/dengluye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/dl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/icon_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/load.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/shibai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/shoe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/style_img/logimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/style_img/search.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/wechat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/weixinzhifu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/wenti.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/img/zhifubao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/static/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/gonggao_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/gonggao_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/gonggao_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/houtai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/user_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/admin/user_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/comm/paging4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/target/classes/templates/comm/paging5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/user-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/cloud/userprovider/UserProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/cloud/userprovider/controller/GonggaoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/cloud/userprovider/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/cloud/userprovider/dao/GonggaoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/cloud/userprovider/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/resources/mapper/GonggaoMapper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/target/classes/com/cloud/userprovider/UserProviderApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/target/classes/com/cloud/userprovider/controller/GonggaoController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/target/classes/com/cloud/userprovider/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/target/classes/com/cloud/userprovider/dao/GonggaoDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/target/classes/com/cloud/userprovider/dao/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/target/classes/mapper/GonggaoMapper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/user-provider.iml" afterDir="false" />
+    <list default="true" id="8c6db0b1-110f-4d85-8dde-cdbedd0544ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -722,7 +83,7 @@
       <recent name="D:\Spring Cloud\BigProject\news\goods-consumer\src\main\resources\templates\qiantai" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.NewsConsumerApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.eurekaserver.EurekaServerApplication" />
@@ -812,8 +173,16 @@
       <workItem from="1609659223317" duration="11237000" />
       <workItem from="1609678996734" duration="7396000" />
       <workItem from="1609686815401" duration="164000" />
-      <workItem from="1609687005412" duration="3682000" />
+      <workItem from="1609687005412" duration="5619000" />
     </task>
+    <task id="LOCAL-00001" summary="这是第二次提交">
+      <created>1609690975688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609690975703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -821,7 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="这是第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="这是第一次提交" />
+    <MESSAGE value="这是第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="这是第二次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="99" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1609598558270">
@@ -844,55 +214,55 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="205" y="269" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1609124982851" />
-    <state x="232" y="10" key="CommitChangelistDialog2" timestamp="1609690738379">
+    <state x="232" y="10" key="CommitChangelistDialog2" timestamp="1609690965063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="232" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609690738379" />
+    <state x="232" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609690965063" />
     <state x="505" y="120" key="FileChooserDialogImpl" timestamp="1609690321713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1609660003437" />
     <state x="505" y="120" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609690321713" />
-    <state width="1381" height="385" key="GridCell.Tab.0.bottom" timestamp="1609690738707">
+    <state width="1380" height="385" key="GridCell.Tab.0.bottom" timestamp="1609696165815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="112" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609685853800" />
-    <state width="1381" height="385" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609690738707" />
-    <state width="1381" height="385" key="GridCell.Tab.0.center" timestamp="1609690738707">
+    <state width="1380" height="385" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609696165815" />
+    <state width="1380" height="385" key="GridCell.Tab.0.center" timestamp="1609696165815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="112" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609685853799" />
-    <state width="1381" height="385" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609690738707" />
-    <state width="1381" height="385" key="GridCell.Tab.0.left" timestamp="1609690738707">
+    <state width="1380" height="385" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609696165815" />
+    <state width="1380" height="385" key="GridCell.Tab.0.left" timestamp="1609696165815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="112" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609685853799" />
-    <state width="1381" height="385" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609690738707" />
-    <state width="1381" height="385" key="GridCell.Tab.0.right" timestamp="1609690738707">
+    <state width="1380" height="385" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609696165815" />
+    <state width="1380" height="385" key="GridCell.Tab.0.right" timestamp="1609696165815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="112" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609685853800" />
-    <state width="1381" height="385" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609690738707" />
-    <state width="1381" height="385" key="GridCell.Tab.1.bottom" timestamp="1609690738707">
+    <state width="1380" height="385" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609696165815" />
+    <state width="1380" height="385" key="GridCell.Tab.1.bottom" timestamp="1609696165815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="112" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609685853800" />
-    <state width="1381" height="385" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609690738707" />
-    <state width="1381" height="385" key="GridCell.Tab.1.center" timestamp="1609690738707">
+    <state width="1380" height="385" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609696165815" />
+    <state width="1380" height="385" key="GridCell.Tab.1.center" timestamp="1609696165815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="112" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1609685853800" />
-    <state width="1381" height="385" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609690738707" />
-    <state width="1381" height="385" key="GridCell.Tab.1.left" timestamp="1609690738707">
+    <state width="1380" height="385" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609696165815" />
+    <state width="1380" height="385" key="GridCell.Tab.1.left" timestamp="1609696165815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="112" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1609685853800" />
-    <state width="1381" height="385" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609690738707" />
-    <state width="1381" height="385" key="GridCell.Tab.1.right" timestamp="1609690738707">
+    <state width="1380" height="385" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609696165815" />
+    <state width="1380" height="385" key="GridCell.Tab.1.right" timestamp="1609696165815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="112" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1609685853800" />
-    <state width="1381" height="385" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609690738707" />
+    <state width="1380" height="385" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609696165815" />
     <state width="1237" height="276" key="GridCell.Tab.2.bottom" timestamp="1609678988237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
