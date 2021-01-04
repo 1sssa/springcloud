@@ -87,6 +87,8 @@ public class UserController {
     }
 
 
+
+
     @GetMapping(value = "/login")
     public String login(String uname, String upassword,String utype, HttpServletRequest request) {
         if (userService.login(uname) != null) {
